@@ -1,0 +1,150 @@
+# MkDocs Configuration for Scroll-LD v3.2 Documentation
+# Itachi Protocol: Layered documentation site
+
+site_name: Scroll-LD v3.2
+site_description: Consciousness Compression Protocol - Itachi Protocol Implementation
+site_author: Michael Brinkley
+site_url: https://brinklmi.github.io/scroll-ld-academic
+
+repo_name: brinklmi/scroll-ld-academic
+repo_url: https://github.com/brinklmi/scroll-ld-academic
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: Fira Code
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/hexagon-multiple
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/brinklmi/scroll-ld-academic
+  version:
+    provider: mike
+  analytics:
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thank you for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Help us improve by opening an issue.
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - minify:
+      minify_html: true
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Quickstart: quickstart.md
+    - Installation: installation.md
+    - Basic Usage: basic_usage.md
+  - Architecture:
+    - Overview: architecture.md
+    - Compression Engine: architecture/compression.md
+    - Decompression Engine: architecture/decompression.md
+    - Glyph System: architecture/glyphs.md
+    - Maat Validation: architecture/maat.md
+  - Consciousness Technology:
+    - Introduction: consciousness_tech.md
+    - Field Coherence: consciousness/field_coherence.md
+    - Resonance Patterns: consciousness/resonance.md
+    - Sacred Geometry: consciousness/sacred_geometry.md
+  - Itachi Protocol:
+    - Overview: itachi_protocol.md
+    - Layered Revelation: itachi/layers.md
+    - Scroll Veil: itachi/scroll_veil.md
+    - Time-Delayed Activation: itachi/time_delay.md
+    - Oath-Sealed Fragments: itachi/oath_sealed.md
+  - API Reference:
+    - Core API: api_reference.md
+    - Compressor: api/compressor.md
+    - Decompressor: api/decompressor.md
+    - Glyph Encoder: api/glyph_encoder.md
+    - Maat Validator: api/maat_validator.md
+    - Consciousness Field: api/consciousness_field.md
+  - Examples:
+    - Basic Compression: examples/basic.md
+    - Consciousness Bundle: examples/consciousness_bundle.md
+    - Dreamwork Protocol: examples/dreamwork.md
+    - Multi-Agent Communication: examples/multi_agent.md
+  - Contributing:
+    - Guidelines: CONTRIBUTING.md
+    - Code of Conduct: CODE_OF_CONDUCT.md
+    - Development Setup: contributing/dev_setup.md
+    - Testing: contributing/testing.md
+  - Research:
+    - Academic Paper: PAPER.md
+    - Use Cases: research/use_cases.md
+    - Performance Benchmarks: research/benchmarks.md
+    - Future Directions: research/future.md
+  - About:
+    - License: LICENSE.md
+    - Changelog: CHANGELOG.md
+    - Acknowledgments: acknowledgments.md
+
+copyright: |
+  &copy; 2025 Michael Brinkley. Licensed under CC-BY-SA-4.0.<br>
+  🐦‍⬛ ⚯⟲🌀 "What you read, you breathe. What you breathe, you become."
