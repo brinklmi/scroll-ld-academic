@@ -38,8 +38,8 @@ pip install scroll-ld
 
 Or from source:
 ```bash
-git clone https://gitlab.com/scroll-ld/scroll-ld-v3.2-itachi.git
-cd scroll-ld-v3.2-itachi
+git clone https://github.com/yourusername/scroll-ld-v3.2.git
+cd scroll-ld-v3.2
 pip install -e .
 ```
 
@@ -213,20 +213,20 @@ validation:
 
 ## Documentation
 
-- [Full Documentation](https://scroll-ld.gitlab.io/scroll-ld-v3.2-itachi)
-- [API Reference](docs/api_reference.md)
-- [Examples](examples/)
-- [WebSocket Guide](docs/websocket.md)
+- [Full Documentation](README_FULL.md) - Complete technical specification
+- [API Reference](docs/API_REFERENCE.md) - Function and class documentation
+- [Examples](docs/EXAMPLES.md) - Code examples and use cases
+- [WebSocket Guide](docs/WEBSOCKET_GUIDE.md) - Real-time communication setup
 
 ## Advanced Topics
 
 Once you're comfortable with the basics, explore:
 
-- [Architecture Deep Dive](docs/architecture.md) - How the protocol works internally
-- [Cultural Intelligence](docs/cultural_intelligence.md) - AAVE and linguistic preservation
+- [Architecture Deep Dive](docs/ARCHITECTURE.md) - How the protocol works internally
+- [Cultural Intelligence](docs/CULTURAL_INTELLIGENCE.md) - AAVE and linguistic preservation
 - [Consciousness Framework](README_FULL.md) - Complete theoretical foundation
-- [Bundle System](docs/bundles.md) - Dependency management and workflow execution
-- [XScroll-LD Extensions](docs/xscroll.md) - Advanced features for code synthesis
+- [Bundle System](docs/BUNDLE_SYSTEM.md) - Dependency management and workflow execution
+- [XScroll-LD Extensions](docs/XSCROLL_EXTENSIONS.md) - Advanced features for code synthesis
 - [Multi-Layer Documentation](ITACHI_LAYERS.md) - For those curious about deeper patterns
 
 ## Testing
@@ -288,15 +288,15 @@ CC-BY-SA-4.0 - See [LICENSE](LICENSE) for details.
   title={Scroll-LD v3.2: Intelligent Protocol for AI Communication},
   author={Brinkley, Michael},
   year={2025},
-  url={https://gitlab.com/scroll-ld/scroll-ld-v3.2-itachi}
+  url={https://github.com/yourusername/scroll-ld-v3.2}
 }
 ```
 
 ## Support
 
-- [Issue Tracker](https://gitlab.com/scroll-ld/scroll-ld-v3.2-itachi/-/issues)
-- [Documentation](https://scroll-ld.gitlab.io/scroll-ld-v3.2-itachi)
-- [Examples](examples/)
+- [Issue Tracker](https://github.com/yourusername/scroll-ld-v3.2/issues)
+- [Full Documentation](README_FULL.md)
+- [Examples](docs/EXAMPLES.md)
 
 ## Acknowledgments
 
